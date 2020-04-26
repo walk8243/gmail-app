@@ -1,0 +1,22 @@
+{
+  "name": "gmail-app",
+  "version": "1.0.0",
+  "description": "Gmailを操作するアプリケーション",
+  "main": "index.js",
+  "scripts": {
+    "build": "yarn run tsc --sourceMap false --removeComments true",
+    "build-debug": "yarn run tsc --build",
+    "clean": "yarn run tsc --build --clean",
+    "start": "node ."
+  },
+  "repository": "git@github.com:walk8243/gmail-app.git",
+  "author": "walk8243 <walk8243@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "googleapis": "^49.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.2",
+    "typescript": "^3.8.3"
+  }
+}
